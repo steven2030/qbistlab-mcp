@@ -1,0 +1,40 @@
+{
+  "name": "@qbistlab/mcp-server",
+  "version": "0.1.0",
+  "description": "MCP server exposing the QBist Lab catalog of Sterling Geisel-bylined Pudding Theory working papers. Tools: list_papers, search_by_postulate, search_by_keyword, buy_paper.",
+  "type": "module",
+  "bin": {
+    "qbistlab-mcp": "./index.js"
+  },
+  "main": "./index.js",
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test test.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "qbistlab",
+    "pudding-theory",
+    "working-papers",
+    "agent-commerce",
+    "scholarly-articles"
+  ],
+  "author": "Sterling Geisel <sterling@qbistlab.com> (https://qbistlab.com)",
+  "license": "MIT",
+  "homepage": "https://qbistlab.com/working-papers/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qbistlab/qbistlab-mcp.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}
