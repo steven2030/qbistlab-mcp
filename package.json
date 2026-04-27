@@ -1,6 +1,7 @@
 {
   "name": "@qbistlab/mcp-server",
   "version": "0.1.0",
+  "mcpName": "io.github.steven2030/qbistlab-mcp",
   "description": "MCP server exposing the QBist Lab catalog of Sterling Geisel-bylined Pudding Theory working papers. Tools: list_papers, search_by_postulate, search_by_keyword, buy_paper.",
   "type": "module",
   "bin": {
@@ -32,7 +33,7 @@
   "homepage": "https://qbistlab.com/working-papers/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/qbistlab/qbistlab-mcp.git"
+    "url": "https://github.com/steven2030/qbistlab-mcp.git"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0"
