@@ -1,0 +1,30 @@
+name: qbistlab
+displayName: QBist Lab Working Papers
+description: >
+  MCP server exposing the QBist Lab catalog of Sterling Geisel-bylined
+  Pudding Theory working papers. Each paper applies one or more of the
+  eight Pudding Theory postulates to a public arXiv source paper and
+  outputs a falsifiable observable. Both human and agent buyers welcome.
+homepage: https://qbistlab.com/working-papers/
+repository: https://github.com/qbistlab/qbistlab-mcp
+license: MIT
+author: Sterling Geisel
+icon: https://qbistlab.com/images/qbistlab-icon.png
+tags:
+  - agent-commerce
+  - scholarly-articles
+  - pudding-theory
+  - working-papers
+  - arxiv
+runtime: node
+entrypoint: index.js
+tools:
+  - name: list_papers
+    description: Paginated catalog listing.
+  - name: search_by_postulate
+    description: Filter by Pudding Theory postulate.
+  - name: search_by_keyword
+    description: Keyword search against titles.
+  - name: buy_paper
+    description: Return UTM-tagged Stripe checkout URL for a paper.
+catalog_url: https://qbistlab.com/working-papers/api/listings.json
